@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <string name="pay">Pay</string>
+  <string name="product_count">Amt</string>
+  <string name="product_name">Name</string>
+  <string name="product_price">Price</string>
   <color name="green">#5cb85c</color>
 </resources>

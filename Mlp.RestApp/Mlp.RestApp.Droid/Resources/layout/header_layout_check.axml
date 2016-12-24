@@ -7,18 +7,18 @@
         android:id="@+id/txvCountFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
+        android:text="@string/product_count"
         android:layout_alignParentLeft="true" />
     <TextView
         android:id="@+id/txvNameFood"
-        android:text="Омар на пару"
+        android:text="@string/product_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/txvCountFood"
         android:layout_marginLeft="20dp" />
     <TextView
         android:id="@+id/txvPriceFood"
-        android:text="100 грн."
+        android:text="@string/product_price"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_alignParentRight="true" />

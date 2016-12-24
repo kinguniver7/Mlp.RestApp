@@ -31,12 +31,19 @@ namespace Mlp.RestApp.Droid
             
             // Use this to return your custom view for this Fragment
             var view = inflater.Inflate(Resource.Layout.FragmentCheck, container, false);
-            string[] countries = { "Омар на пару", "Цезарь", "Вода", "Кофе", "Кола" };
-            var adapter = new CheckAdapter(this.Activity, countries);
+            List<Product> products = new List<Product> {
+                new Product { Name = "Омар на пару" },
+                new Product { Name = "Цезарь" },
+                new Product { Name = "Вода" },
+                new Product { Name ="Кофе" },
+                new Product { Name ="Кола" } };
+            var adapter = new CheckAdapter(this.Activity, products);
             // Initialize the ListView
             var listView = view.FindViewById<ListView>(Resource.Id.listView1);
             if (listView != null)
             {
+                var headerCheck = inflater.Inflate(Resource.Layout.header_layout_check,null);
+                listView.AddHeaderView(headerCheck);
                 listView.Adapter = adapter;
                 listView.ChoiceMode = ChoiceMode.Single;
             }

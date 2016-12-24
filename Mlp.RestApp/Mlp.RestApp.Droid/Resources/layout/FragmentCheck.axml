@@ -6,14 +6,15 @@
     android:layout_weight="100"
     android:minWidth="25px"
     android:minHeight="25px">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="10"
-        android:id="@+id/linearLayout1" />
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="10"
+      android:id="@+id/linearLayout1">
+   
+  </LinearLayout>
+  
     <LinearLayout
         android:orientation="horizontal"
         android:minWidth="25px"
@@ -21,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="80"
-        android:id="@+id/linearLayout2">
+        android:id="@+id/linearLayout2">        
         <ListView
             android:minWidth="25px"
             android:minHeight="25px"

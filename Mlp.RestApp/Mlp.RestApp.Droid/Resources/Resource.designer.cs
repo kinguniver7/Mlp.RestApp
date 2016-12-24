@@ -213,10 +213,13 @@ namespace Mlp.RestApp.Droid
 			public const int FragmentCheck = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int header_layout_check = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Tables = 2130903045;
+			public const int Main = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Tables = 2130903046;
 			
 			static Layout()
 			{
@@ -231,14 +234,14 @@ namespace Mlp.RestApp.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040006
-			public const int app_name = 2130968582;
+			// aapt resource value: 0x7f040009
+			public const int app_name = 2130968585;
 			
 			// aapt resource value: 0x7f040001
 			public const int block = 2130968577;
 			
-			// aapt resource value: 0x7f040005
-			public const int hello = 2130968581;
+			// aapt resource value: 0x7f040008
+			public const int hello = 2130968584;
 			
 			// aapt resource value: 0x7f040000
 			public const int menu = 2130968576;
@@ -251,6 +254,15 @@ namespace Mlp.RestApp.Droid
 			
 			// aapt resource value: 0x7f040004
 			public const int pay = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int product_count = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int product_name = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int product_price = 2130968583;
 			
 			static String()
 			{
