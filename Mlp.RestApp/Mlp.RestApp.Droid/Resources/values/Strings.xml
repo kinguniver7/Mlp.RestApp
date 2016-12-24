@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Mlp.RestApp.Droid</string>
+  <color name="light_blue">#01579B</color>
+  <color name="light_blue_800">#0277BD</color>
+  <color name="_blue_grey_50">#ECEFF1</color>
 </resources>

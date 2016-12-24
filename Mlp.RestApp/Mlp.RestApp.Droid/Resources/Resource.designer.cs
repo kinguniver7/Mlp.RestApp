@@ -41,11 +41,72 @@ namespace Mlp.RestApp.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050003
+			public const int _blue_grey_50 = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int green = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int light_blue = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int light_blue_800 = 2131034114;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int category_color_selector = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int fon1 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int food_ico = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_action_dial_pad = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ic_action_favorite = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ic_action_group = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int ic_action_phone = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int ic_lock_outline_white_24dp = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int ic_menu_black_24dp = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int ic_menu_white_24dp = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int ic_sentiment_very_satisfied_white_24dp = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int Icon = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int selector = 2130837516;
 			
 			static Drawable()
 			{
@@ -60,8 +121,71 @@ namespace Mlp.RestApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			// aapt resource value: 0x7f070010
+			public const int button1 = 2131165200;
+			
+			// aapt resource value: 0x7f070013
+			public const int gridView1 = 2131165203;
+			
+			// aapt resource value: 0x7f070003
+			public const int imageView2_1 = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int imageView2_2 = 2131165189;
+			
+			// aapt resource value: 0x7f070007
+			public const int imageView2_3 = 2131165191;
+			
+			// aapt resource value: 0x7f070000
+			public const int linearLayout1 = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int linearLayout2 = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int linearLayout2_2 = 2131165186;
+			
+			// aapt resource value: 0x7f070006
+			public const int linearLayout2_3 = 2131165190;
+			
+			// aapt resource value: 0x7f070009
+			public const int linearLayout3 = 2131165193;
+			
+			// aapt resource value: 0x7f07000e
+			public const int listView1 = 2131165198;
+			
+			// aapt resource value: 0x7f070015
+			public const int mainFrameLyRight = 2131165205;
+			
+			// aapt resource value: 0x7f070011
+			public const int mainLnLyLeft = 2131165201;
+			
+			// aapt resource value: 0x7f070014
+			public const int mainLnLyRight = 2131165204;
+			
+			// aapt resource value: 0x7f07000f
+			public const int relativeLayout1 = 2131165199;
+			
+			// aapt resource value: 0x7f070012
+			public const int searchView1 = 2131165202;
+			
+			// aapt resource value: 0x7f070004
+			public const int textView2_1 = 2131165188;
+			
+			// aapt resource value: 0x7f070008
+			public const int textView2_3 = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int txvCategoryName = 2131165194;
+			
+			// aapt resource value: 0x7f07000b
+			public const int txvCountFood = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int txvNameFood = 2131165196;
+			
+			// aapt resource value: 0x7f07000d
+			public const int txvPriceFood = 2131165197;
 			
 			static Id()
 			{
@@ -77,7 +201,22 @@ namespace Mlp.RestApp.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int action_bar = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int cell_layout_category = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int cell_layout_check = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int FragmentCheck = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Tables = 2130903045;
 			
 			static Layout()
 			{
@@ -92,11 +231,26 @@ namespace Mlp.RestApp.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040006
+			public const int app_name = 2130968582;
+			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int block = 2130968577;
+			
+			// aapt resource value: 0x7f040005
+			public const int hello = 2130968581;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int menu = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int offline = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int online = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int pay = 2130968580;
 			
 			static String()
 			{
@@ -104,6 +258,25 @@ namespace Mlp.RestApp.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int CustomActionBarTheme = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int MyActionBar = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

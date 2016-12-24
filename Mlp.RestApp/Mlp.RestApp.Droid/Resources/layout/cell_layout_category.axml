@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="100"
+    android:padding="1dp"
+    android:background="@android:drawable/gallery_thumb"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:src="@drawable/food_ico"
+        android:id="@+id/imageView2_1"
+        android:layout_weight="70"
+        android:scaleType="fitXY"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp" />
+    <TextView
+        android:id="@+id/txvCategoryName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="Category"
+        android:background="@android:color/background_light" />
+</LinearLayout>

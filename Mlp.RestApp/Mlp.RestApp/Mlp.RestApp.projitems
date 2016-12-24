@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -9,6 +9,15 @@
     <Import_RootNamespace>Mlp.RestApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataService\IEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataService\IRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataService\BaseEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\BaseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Category.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Check.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\OrderProduct.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Premises.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Product.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Table.cs" />
   </ItemGroup>
 </Project>

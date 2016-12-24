@@ -13,6 +13,9 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mlp.RestApp", "Mlp.RestApp\
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Mlp.RestApp\Mlp.RestApp\Mlp.RestApp.projitems*{22775940-9d93-4d79-b139-f6f7d4a30af5}*SharedItemsImports = 4
+		Mlp.RestApp\Mlp.RestApp\Mlp.RestApp.projitems*{93a16501-8fc3-4c99-8d91-5dd2f6ca5551}*SharedItemsImports = 4
+		Mlp.RestApp\Mlp.RestApp\Mlp.RestApp.projitems*{9678ec0d-72a1-4750-b3b9-ea0eb51cf4ed}*SharedItemsImports = 4
 		Mlp.RestApp\Mlp.RestApp\Mlp.RestApp.projitems*{cfafc546-228a-4b3a-bacc-c943904991a1}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
